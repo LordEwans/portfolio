@@ -28,7 +28,7 @@
         <p class="subheading">I'm here for you</p>
         <p>
           You can reach out to me at any time, just make sure to check in on
-          your socials regularly for when I'm less busy. The hunt will not be
+          your socials regularly for when I'm less busy, I'm always willing to help. The hunt will not be
           long.
         </p>
       </div>
