@@ -1,11 +1,11 @@
 <template>
     <div class="grid grid-cols-4 grid-rows-3 my-7">
         <div class="flex align-middle">
-        <img src="assets/img/icons/go-original-wordmark.svg" alt="Go" class="skill">
+        <img src="assets/img/icons/go-original-wordmark.svg" alt="Go" class="w-12 mr-2">
         <p class="my-6 font-light text-sm">Go</p>
         </div>
         <div class="flex align-middle">
-        <img src="assets/img/icons/solidity.svg" alt="Solidity" class="skill">
+        <img src="assets/img/icons/solidity.svg" alt="Solidity" class="w-12 mr-2">
         <p class="my-6 font-light text-sm">Solidity</p>
         </div>
         <div class="flex align-middle">
