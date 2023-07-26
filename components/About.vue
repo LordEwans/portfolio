@@ -22,7 +22,7 @@
           and skills.
         </p>
       </div>
-
+      <Projects />
       <div class="pb-4">
         <h1 class="heading">Get the best at the right cost 🚀</h1>
         <p class="subheading">I'm here for you</p>
