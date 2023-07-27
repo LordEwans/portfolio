@@ -14,7 +14,7 @@
           <nuxt-link to="#contact" class="partials">Contact</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/articles" class="partials">Articles</nuxt-link>
+          <nuxt-link to="https://lordewans.github.io/articles" class="partials">Articles</nuxt-link>
         </li>
       </ul>
       <!-- <button>
