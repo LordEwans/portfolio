@@ -17,6 +17,9 @@
     "tailwindcss": "^3.3.2"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.8.0"
-  }
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "gh-pages": "^5.0.0"
+  },
+  "predeploy": "nuxt generate",
+  "deploy": "gh-pages -d dist"
 }
