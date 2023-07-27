@@ -1,6 +1,6 @@
 <template>
   <header class="grid grid-cols-2 py-[.2em] w-full z-30 will-change-transform">
-    <div class="px-[2em] py-[1em] block text-lg">
+    <div class="mx-[1.5em] my-[1em] md:mx-[2em] md:my-[1em] block text-lg">
       <nuxt-link to="/" class="uppercase font-black text-white"
         >Lord Ewan</nuxt-link
       >
@@ -13,6 +13,9 @@
         <li>
           <nuxt-link to="#contact" class="partials">Contact</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/articles" class="partials">Articles</nuxt-link>
+        </li>
       </ul>
       <!-- <button>
         <img src="assets/img/animated/day.svg" alt="Default" />
@@ -23,7 +26,7 @@
 
 <style>
 li {
-  @apply inline mx-4 md:mx-8 my-4;
+  @apply inline mx-2 md:mx-8 my-4;
 }
 .partials {
   @apply inline-block uppercase font-bold text-white text-sm;

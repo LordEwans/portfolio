@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-4 grid-rows-3 my-7">
+    <div class="grid md:grid-cols-4 grid-cols-2 grid-rows-3 my-7">
         <div class="flex align-middle">
         <img src="assets/img/icons/go-original-wordmark.svg" alt="Go" class="w-12 mr-2">
         <p class="my-6 font-light text-sm">Go</p>
