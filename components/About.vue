@@ -14,7 +14,7 @@
       <Skills />
       <div class="pb-14">
         <h1 class="heading">Practice makes perfect 💻</h1>
-        <p class="subheading">It'll help you be the..</p>
+        <p class="subheading">It'll help you be the...</p>
         <p>
           Though I spent most of my developer years building in silence, I've
           begun rolling out some of my most important projects to help

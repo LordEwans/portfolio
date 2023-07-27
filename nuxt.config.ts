@@ -2,7 +2,7 @@
 export default defineNuxtConfig ({
   devtools: { enabled: true },
   app: {
-    baseURL: "/LordEwan.github.com/",
+    baseURL: "/LordEwans.github.com/portfolio/",
   },
   modules: ["@nuxtjs/tailwindcss"],
   css: ["@/assets/css/main.css"],
