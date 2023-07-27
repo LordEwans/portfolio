@@ -1,10 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default ({
   devtools: { enabled: true },
-  modules: [
-    '@nuxtjs/tailwindcss',
-  ],
-  css: [
-    '@/assets/css/main.css',
-  ]
-})
+  target: "static",
+  router: {
+    base: "/LordEwan.github.com/",
+  },
+  modules: ["@nuxtjs/tailwindcss"],
+  css: ["@/assets/css/main.css"],
+});
