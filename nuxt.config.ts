@@ -1,9 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default ({
+export default defineNuxtConfig ({
   devtools: { enabled: true },
-  target: "static",
-  router: {
-    base: "/LordEwan.github.com/",
+  app: {
+    baseURL: "/LordEwan.github.com/",
   },
   modules: ["@nuxtjs/tailwindcss"],
   css: ["@/assets/css/main.css"],
