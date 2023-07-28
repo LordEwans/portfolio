@@ -1,6 +1,6 @@
 <template>
   <header class="grid grid-cols-2 py-[.2em] w-full z-30 will-change-transform">
-    <div class="mx-[1.5em] my-[1em] md:mx-[2em] md:my-[1em] block text-lg">
+    <div class="mx-[1.5em] my-[1em] md:mx-[2em] md:my-[1em] block text-base md:text-lg">
       <nuxt-link to="/" class="uppercase font-black text-white"
         >Lord Ewan</nuxt-link
       >
@@ -29,6 +29,6 @@ li {
   @apply inline mx-2 md:mx-8 my-4;
 }
 .partials {
-  @apply inline-block uppercase font-bold text-white text-sm;
+  @apply inline-block uppercase font-bold text-white text-xs md:text-sm;
 }
 </style>

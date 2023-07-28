@@ -41,13 +41,13 @@ section {
   @apply bg-inherit p-16 container w-full;
 }
 h1 {
-  @apply font-bold uppercase text-4xl;
+  @apply font-bold uppercase text-3xl md:text-4xl;
 }
 .subheading {
-  @apply text-3xl mb-8 font-semibold text-gray-400 uppercase;
+  @apply text-2xl md:text-3xl mb-8 font-semibold text-gray-400 uppercase;
 }
 
 p {
-  @apply text-lg text-gray-500;
+  @apply text-base md:text-lg text-gray-500;
 }
 </style>
