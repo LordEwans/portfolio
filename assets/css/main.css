@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
-    @apply bg-slate-800 text-white font-mono bg-center bg-cover bg-[url('assets/img/wallpaperflare.com_wallpaper30.png')] antialiased bg-fixed;
+  @apply bg-slate-800 text-white font-mono bg-center bg-cover bg-[url('assets/img/wallpaperflare.com_wallpaper30.png')] antialiased bg-fixed;
+  -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+body::-webkit-scrollbar {
+    display: none;
+  }
